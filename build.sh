@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-
-go build -buildmode=c-archive -o libsqip.a main.go
+set -e
+go build -buildmode=c-archive -o ./build/libsqip.a main.go
